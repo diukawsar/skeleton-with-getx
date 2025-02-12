@@ -1,13 +1,13 @@
 import 'package:e_sort/views/_views.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 
 void main() {
-  //=========================================================
-  // App Will Run From Here
-  //=========================================================
+  // -------------------- App Entry Point
   runApp(
-    MaterialApp(
-      builder: (context, widget) => routes,
+    GetMaterialApp.router(
+      getPages: pages,
     ),
   );
 }
