@@ -7,3 +7,5 @@ part 'authentication/register/register_controller.dart';
 part 'authentication/register/register_screen.dart';
 part 'screen_routes.dart';
 part 'controller_bindings.dart';
+part 'main/controller.dart';
+part 'main/main_widget.dart';

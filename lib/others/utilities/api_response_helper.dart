@@ -5,8 +5,8 @@ part of '../_others.dart';
 // In More Generic Way!
 //=========================================================
 sealed class ApiResponse{}
-class Success<T> extends ApiResponse{
-  T data;
+class Success extends ApiResponse{
+  Map<String, dynamic> data;
   int statusCode;
 
   Success(this.data, this.statusCode);
